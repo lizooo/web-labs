@@ -1,0 +1,19 @@
+.accent-button input[type=submit]:hover {
+  transform: scale(1.1);
+}
+
+.header__item:hover, .header__button-secondary input[type=submit]:hover {
+  color: crimson;
+  font-weight: 500;
+}
+
+.header__button-accent input[type=submit]:hover{
+  background-color: var(--color-accent-red);
+  color: #fff;
+}
+
+.feedback__review:hover{
+  border: 2px solid #F53838;
+  box-shadow: 0px 0px 104px 22px rgba(245,56,56,0.08);
+  transform: scale(1.1);
+}

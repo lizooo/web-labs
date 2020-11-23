@@ -1,0 +1,134 @@
+
+.checked-list__item{
+    list-style: none;
+    background: url('../images/svg/check-icon.svg') no-repeat center left;
+    padding: 7px 0 7px 32px;
+    line-height: 30px;
+}
+
+.feedback__text{
+    width: 40%;
+    margin: 73px auto 0;
+    text-align: center;
+}
+
+.feedback__reviews{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.feedback__reviews__upper-container{
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.feedback__reviews h5{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: auto;
+}
+
+.feedback__reviews h6{
+    font-size: 14px;
+    line-height: auto;
+    color: #4F5665;
+    margin-top: 5px;
+}
+
+.feedback__rate__number, .feedback__reviews__quote{
+    font-size: 16px;
+    line-height: 30px;
+    color: #0B132A;
+}
+
+.feedback__rate__number{
+    margin-right: 8px;
+}
+
+.feedback__reviews__quote {
+    height: 135px;
+    display : flex;
+    align-items : center;
+    justify-content: center;
+}
+
+.feedback__review{
+    max-width: 350px;
+    height: 230px;
+    padding: 30px 26px 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 10px;
+    border: 2px solid #ddd;
+    transition: all 0.3s ease-out ;
+}
+
+.feedback__user-pic{
+    margin-right: 18px;
+}
+
+.feedback__user-text{
+    width: 100%;
+}
+
+.feedback__rate{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    justify-content: center;
+}
+
+.feedback__subscribe-box__element{
+    padding: 58px 70px;
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 150px auto 0;
+    position: relative;
+}
+
+.feedback__subscribe-box__text{
+    width: 100%;
+}
+
+.feedback subtitle{
+    align-items: center;
+}
+
+@media screen and (max-width: 1023px){
+    .feedback__subscribe-box__element{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .feedback__subscribe-box__element{
+        flex-direction: column;
+        padding: 5%;
+        text-align: center;
+        margin-top: 5vh;
+    }
+    .feedback__text{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 480px){
+    .feedback__reviews{
+        padding: 0 7%;
+    } 
+}

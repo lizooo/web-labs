@@ -1,0 +1,11 @@
+@import "./reset.css";
+
+@import "./header.css";
+@import "./footer.css";
+@import "./hero.css";
+@import "./globals.css";
+@import "./feedback.css";
+@import "./features.css";
+@import "./animations.css";
+
+@import "./style.css"

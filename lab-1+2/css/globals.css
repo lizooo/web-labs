@@ -1,0 +1,109 @@
+/* rubik-regular - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/rubik-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/rubik-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* rubik-500 - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/rubik-v11-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/rubik-v11-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* rubik-700 - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/rubik-v11-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/rubik-v11-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+:root {
+    --color-dark-font: #0B132A;
+    --color-light-font: #4F5665;
+    --color-extra-light-font: #AFB5C0;
+    --color-accent-red: #F53855;
+
+    --font-size-md: 1rem;
+    --font-size-sm: 0.85rem;
+    --font-size-xs: 0.75rem;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    color: #4F5665;
+}
+
+*, ::before, ::after{
+    box-sizing: inherit;
+}
+.wrapper{
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 40px;
+}
+
+body{
+    font-family: 'Rubik';
+    color: #0B132A;
+    font-style: normal;
+}
+
+.subtitle{
+    font-size: 1rem;
+    line-height: 1.875rem;
+    color:var(--color-light-font);
+    padding: 20px 0 20px;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 3.125rem;
+    color: var(--color-dark-font);
+}
+
+.subtitle-xs{
+    font-size: var(--font-size-xs);
+    color: var(--color-light-font);
+}
+
+.accent-button input[type=submit]{ 
+    background: #F53838;
+    border-radius: 10px;
+    padding: 17.5px 77.5px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    display: inline;
+    box-shadow: -5px 20px 60px rgba(245, 56, 56, 0.35);
+    transition: all 0.2s ease-out;
+}
+
+@media screen and (max-width: 768px){
+    :root{
+        font-size: 12px;
+    }
+}
+
+
+
+
+
